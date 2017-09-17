@@ -24,6 +24,7 @@
 }
 
 .links * {
+  color: rgb(40, 45, 51);
   padding-right: 3rem;
 }
 
@@ -34,4 +35,21 @@
 
 .captions {
   color:rgb(40, 45, 51);
+}
+
+.icon {
+  width: 50px;
+}
+
+.teamCard :global .row {
+  margin: 20px 0;
+  justify-content: flex-end;
+}
+
+.teamCard :global .row > * {
+  margin-left: 40px;
+}
+
+.teamCard h2 {
+  margin: 0;
 }

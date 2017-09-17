@@ -7,8 +7,8 @@ class Component extends React.Component {
       <div className={style.main}>
         <img src="media/ncplogo.svg" style={{width:'500px', margin: '50px auto'}} className="horizontal-center" />
         <div className="row">
-          <a href="https://github.com/NCPCode"><img src="media/github.svg" style={{height:'50px'}} /></a>
-          <a href="https://www.facebook.com/groups/1586369904743034/"><img src="media/facebook.svg" style={{height:'50px'}} /></a>
+          <a href="https://github.com/NCPCode"><img src="media/github.svg" className={style.icon} /></a>
+          <a href="https://www.facebook.com/groups/1586369904743034/"><img src="media/facebook.svg" className={style.icon} /></a>
         </div>
         <h1 id="summary">summary</h1>
         <div className={"row centered"}>
@@ -50,7 +50,13 @@ class Component extends React.Component {
         <h2>after that, who knows? more fun coding :)</h2>
 
         <h1 id="team">team</h1>
-        <h2>Anton Outkine</h2>
+        <div className={style.teamCard}>
+          <div className="row">
+            <a href="https://github.com/Jetmate"><img src="media/github.svg" className={style.icon} /></a>
+            <a href="https://www.linkedin.com/in/antonoutkine/"><img src="media/linkedin.svg" className={style.icon} /></a>
+            <h2>Anton Outkine</h2>
+          </div>
+        </div>
       </div>
     )
   }
