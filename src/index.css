@@ -25,9 +25,10 @@
 
 body {
   background-color: #4ecdc4;
-  color: rgb(40, 45, 51);
+  color: white;
   font-family: Montserrat;
   font-size: 2rem;
+  text-align: right;
 }
 
 a {
@@ -36,14 +37,18 @@ a {
 }
 
 h1 {
-  text-align: right;
+  color: #c7f464;
   margin-top: 10vh;
 }
 
-h1:first-of-type {
-  margin-top: 0;
+h2 {
+  padding-top: 2rem;
 }
 
-:global .captions * {
+h2:first-of-type {
+  padding-top: 0;
+}
+
+:global .centered * {
   text-align: center;
 }
