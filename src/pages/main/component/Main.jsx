@@ -54,7 +54,7 @@ class Component extends React.Component {
           <div className="row">
             <a href="https://github.com/Jetmate"><img src="media/github.svg" className={style.icon} /></a>
             <a href="https://www.linkedin.com/in/antonoutkine/"><img src="media/linkedin.svg" className={style.icon} /></a>
-            <h2>Anton Outkine</h2>
+            <a href="http://antonoutkine.com"><h2>Anton Outkine</h2></a>
           </div>
         </div>
       </div>
