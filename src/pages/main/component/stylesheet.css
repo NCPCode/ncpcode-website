@@ -53,3 +53,8 @@
 .teamCard h2 {
   margin: 0;
 }
+
+.Footer {
+  border-top: 3px solid white;
+  padding: 10px;
+}
