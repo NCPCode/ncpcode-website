@@ -1,0 +1,29 @@
+.title {
+  font-family: Moon;
+  float: right;
+  padding: 2vh;
+  font-size: 5vw;
+}
+
+.sideBar {
+  background-color: #c7f464;
+  transform-origin: 0 0;
+  transform: rotate(-90deg) translateX(-100vh);
+  position: fixed;
+  width: 100vh;
+}
+
+.links {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 3vh;
+  width: 8vw;
+  text-align: center;
+}
+
+.links * {
+  display: block;
+  text-decoration: none;
+  font-size: 3rem;
+  color: white;
+}

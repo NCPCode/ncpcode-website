@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Moon;
+  src: url('./font/Moon Light.otf');
+}
+
+@font-face {
+  font-family: Big John;
+  src: url('./font/BIG JOHN.otf');
+}
+
+@font-face {
+  font-family: Manifesto;
+  src: url('./font/MANIFESTO.ttf');
+}
+
+@font-face {
+  font-family: Moderne Sans;
+  src: url('./font/MODERNE SANS.ttf');
+}
+
+/* :global html, :global body, :global #app, :global [data-reactroot] {
+  height: 100%;
+} */
+
+
+body {
+  background-color: #4ecdc4;
+  color: white;
+  font-family: Montserrat;
+}
