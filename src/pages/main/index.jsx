@@ -1,15 +1,17 @@
 import React from 'react'
 
 import Sidebar from './component/Sidebar.jsx'
+import Main from './component/Main.jsx'
 
-class Main extends React.Component {
+class Component extends React.Component {
   render () {
     return (
       <div>
         <Sidebar />
+        <Main />
       </div>
     )
   }
 }
 
-export default Main
+export default Component
