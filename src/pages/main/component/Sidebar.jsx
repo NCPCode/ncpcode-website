@@ -7,11 +7,10 @@ class Component extends React.Component {
       <div>
         <div className={style.sideBar}>
           <div className={style.title}>NCP Code</div>
-        </div>
-        <div className={style.links}>
-          <a href="#time">time</a>
-          <a href="#time">time</a>
-          <a href="#time">time</a>
+          <div className={style.links}>
+            <a href="#philosophies">focus</a>
+            <a href="#summary">summary</a>
+          </div>
         </div>
       </div>
     )

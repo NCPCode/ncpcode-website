@@ -1,9 +1,8 @@
 .title {
   font-family: Moon;
   float: right;
-  padding: 1vw;
-  font-size: 5vw;
-  color: #454f5b;
+  font-size: 5rem;
+  padding: 1rem;
 }
 
 .sideBar {
@@ -17,22 +16,15 @@
 }
 
 .links {
-  position: fixed;
-  bottom: 0;
-  margin-bottom: 3vh;
-  width: 8vw;
-  text-align: center;
+  padding: 2.5rem;
 }
 
 .links * {
-  display: block;
-  text-decoration: none;
-  font-size: 2vw;
-  color: #454f5b;
-  padding: 2vh 0;
+  padding-right: 3rem;
 }
+
 
 .main {
   margin-right: 2vw;
-  margin-left: 10vw;
+  margin-left: 10rem;
 }
