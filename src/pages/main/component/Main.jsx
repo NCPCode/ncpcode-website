@@ -10,6 +10,9 @@ class Component extends React.Component {
           <a href="https://github.com/NCPCode"><img src="media/github.svg" className={style.icon} /></a>
           <a href="https://www.facebook.com/groups/1586369904743034/"><img src="media/facebook.svg" className={style.icon} /></a>
         </div>
+
+        <div className={style.interestedContainer}><a href="https://goo.gl/forms/UBlD0j7ZpipT65Xa2" className={style.interested}>Interested?</a></div>
+
         <h1 id="summary">summary</h1>
         <div className={"row centered"}>
           <div className="el-3">

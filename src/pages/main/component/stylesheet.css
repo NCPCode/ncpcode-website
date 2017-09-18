@@ -62,3 +62,33 @@
 .Footer a {
   color: #c7f464;
 }
+
+.interested {
+  display: inline-block;
+  border-radius: 10px;
+  color: #c7f464;
+  border: 4px solid #c7f464;
+  text-decoration: none;
+  font-size: 4rem;
+  margin-top: 100px;
+  transition: all .2s;
+  box-shadow: inset 0 0 3px 4px rgba(0, 0, 0, .1), 0 0 3px 4px rgba(0, 0, 0, .1);
+  padding: 5px;
+}
+
+.interested:hover {
+  color: #4ecdc4;
+  background-color: #c7f464;
+  box-shadow: 0 0 3px 4px rgba(0, 0, 0, .1);
+}
+
+.interested:active {
+  box-shadow: inset 0 0 5px 5px rgba(0, 0, 0, .2);
+  border: 0;
+  color: #c7f464;
+  background-color: inherit;
+}
+
+.interestedContainer {
+  text-align: center;
+}
