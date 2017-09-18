@@ -16,7 +16,7 @@ class Component extends React.Component {
         <h1 id="summary">summary</h1>
         <div className={"row centered"}>
           <div className="el-3">
-            <img src="media/question1.svg" style={{maxWidth:'300px'}} />
+            <img src="media/question.svg" style={{maxWidth:'300px'}} />
             <p>you know nothing about computers</p>
           </div>
           <img src="media/arrow.svg" style={{maxWidth:'250px'}} />

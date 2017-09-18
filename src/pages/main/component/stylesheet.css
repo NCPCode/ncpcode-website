@@ -1,7 +1,7 @@
 .title {
   font-family: Moon;
   float: right;
-  font-size: 5rem;
+  font-size: 8vh;
   padding: 1rem;
   color: rgb(40, 45, 51);
 }
@@ -21,8 +21,8 @@
 }
 
 .links {
-  padding: 2.5rem;
-  font-size: 1.5rem;
+  padding: 4vh;
+  font-size: 2.5vh;
   justify-content: space-between;
   font-weight: bold;
 }
