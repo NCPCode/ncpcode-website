@@ -14,12 +14,12 @@ class Component extends React.Component {
       <div className={"row centered"}>
         <div className="el-3">
           <img src="media/question.svg" style={{maxWidth:'300px'}} />
-          <p>You're interested in getting into computer science</p>
+          <p>You know nothing about computers</p>
         </div>
         <img src="media/arrow.svg" style={{maxWidth:'250px'}} />
         <div className="el-3">
           <img src="media/programmer.svg" style={{maxWidth:'300px'}} />
-          <p>We teach you how to make websites, games, and other applications.</p>
+          <p>You can make websites, games, and other awesome applications</p>
         </div>
       </div>
       <h1>Coding can be fun!</h1>
