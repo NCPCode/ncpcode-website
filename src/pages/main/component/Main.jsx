@@ -35,7 +35,7 @@ class Component extends React.Component {
         </div>
       </div>
       <h1 id="schedule">We meet on Wednesdays!</h1>
-      <p>Here's a rough outline of the first six days</p>
+      <p>NCP Code takes place in the 3rd floor computer lab. Here's a rough outline of the first six days</p>
       <img src="media/schedule2.svg" style={{width: '100%'}} />
       <h1>Meeting timeline</h1>
       <img src="media/time2.svg" style={{width: '100%'}} />
