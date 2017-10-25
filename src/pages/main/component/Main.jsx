@@ -63,12 +63,14 @@ class Component extends React.Component {
           <h2>Michael Barz</h2>
         </div>
         <div className="row">
+          <a href="https://github.com/anakum"><img src="media/github.svg" className={style.icon} /></a>
           <h2>Aayushi Nakum</h2>
         </div>
         <div className="row">
           <h2>Matthew Early</h2>
         </div>
         <div className="row">
+          <a href="https://github.com/cmsparks"><img src="media/github.svg" className={style.icon} /></a>
           <h2>Christrian Sparks</h2>
         </div>
         <div className="row">
