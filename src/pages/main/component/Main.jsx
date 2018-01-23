@@ -9,6 +9,8 @@ class Component extends React.Component {
         <a href="https://github.com/NCPCode"><img src="media/github.svg" className={style.icon} /></a>
         <a href="https://www.facebook.com/groups/1586369904743034/"><img src="media/facebook.svg" className={style.icon} /></a>
       </div>
+      <div className={style.interestedContainer}><a href="https://goo.gl/forms/FBQlC3rFfSVrT2qF3" className={style.interested}>Robot Race RSVP!</a></div>
+      <p>The robot race will take place from 3:05 to 5 the Tuesday after finals in the 3rd floor computer lab, with the official 'race' being held at 4:50. During this time you will have access to a Lego Mindstorms kit which will include various lego bits and pieces along with Motors and other sensors to help you build the fastest racer. You will be able to code it using the NXT language available on the computers in the 3rd floor lab. <b>Bring your friends and build robots with us in a chill atmosphere.</b> What could be better?</p>
       <div className={style.interestedContainer}><a href="https://goo.gl/forms/UBlD0j7ZpipT65Xa2" className={style.interested}>Sign up</a></div>
       <h1 id="summary">How this works</h1>
       <div className={"row centered"}>

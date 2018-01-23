@@ -1,4 +1,4 @@
-  {
+{
   "scripts": {
     "test": "webpack-dev-server --inline --hot --config webpack.dev.js",
     "test2": "webpack --watch --config webpack.dev.js",
