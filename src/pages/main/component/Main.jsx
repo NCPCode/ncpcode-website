@@ -56,11 +56,6 @@ class Component extends React.Component {
           <a href="http://antonoutkine.com"><h2>Anton Outkine</h2></a>
         </div>
         <div className="row">
-          <a href="https://github.com/justinwzig"><img src="media/github.svg" className={style.icon} /></a>
-          <a href="https://www.linkedin.com/in/justinwzig/"><img src="media/linkedin.svg" className={style.icon} /></a>
-          <a href="http://justinwzig.github.io"><h2>Justin Ziegelmueller</h2></a>
-        </div>
-        <div className="row">
           <a href="https://github.com/mbarz6"><img src="media/github.svg" className={style.icon} /></a>
           <h2>Michael Barz</h2>
         </div>
